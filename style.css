@@ -15,10 +15,10 @@ html{
 }
 
 :root{
-    --bg-color: #0f0f0f;
-    --second-bg-color: #1a1a1a;
-    --text-color: #e5e5e5;
-    --main-color: #8f8f8f;
+    --bg-color: #040816;
+    --second-bg-color: #09112b;
+    --text-color: #edf2ff;
+    --main-color: #4d7cff;
 }
 
 body{
@@ -118,9 +118,9 @@ section{
     transition: 0.4s ease-in-out;
 }
 .home-img img:hover{
-box-shadow: 0 0 10px #8f8f8f,
-            0 0 20px #8f8f8f,
-            0 0 40px #8f8f8f;
+box-shadow: 0 0 10px var(--main-color),
+            0 0 20px var(--main-color),
+            0 0 40px var(--main-color);
 }
 .social-icon a{
     display: inline-flex;
@@ -194,9 +194,9 @@ box-shadow: 0 0 10px #8f8f8f,
 }
 
 .about-img img:hover{
-    box-shadow: 0 0 10px #8f8f8f,
-                0 0 20px #8f8f8f,
-                0 0 40px #8f8f8f;
+    box-shadow: 0 0 10px var(--main-color),
+                0 0 20px var(--main-color),
+                0 0 40px var(--main-color);
 }
 
 .about-content h2{
